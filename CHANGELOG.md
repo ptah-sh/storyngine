@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/ptah-sh/storyngine/compare/v1.0.4...v1.0.5) (2024-08-22)
+
+
+### Bug Fixes
+
+* pdo mysql ([33c0c26](https://github.com/ptah-sh/storyngine/commit/33c0c2607818d5057e58c4833509b710b4c3bdc8))
+
 ## [1.0.4](https://github.com/ptah-sh/storyngine/compare/v1.0.3...v1.0.4) (2024-08-22)
 
 
