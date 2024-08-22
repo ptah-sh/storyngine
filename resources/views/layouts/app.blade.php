@@ -20,7 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>{{ $vendor ?: 'Vendor' }} Stories</title>
     <meta name="description" content="Stay tuned for the latest updates and a mix of uplifting, heartwarming, and thought-provoking stories from {{ $vendor ? $vendor : 'various vendors' }}.">
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="flex justify-center bg-gradient-to-r from-lightblue-200 to-lightgray-300">
     <div class="flex flex-col max-w-[800px] justify-center bg-gradient-to-r from-lightblue-200 to-lightgray-300">
