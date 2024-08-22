@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/ptah-sh/storyngine/compare/v1.0.2...v1.0.3) (2024-08-22)
+
+
+### Bug Fixes
+
+* libicu-dev ([993eb32](https://github.com/ptah-sh/storyngine/commit/993eb32395f7ccf1ae5c75e0223e8fea95abe125))
+
 ## [1.0.2](https://github.com/ptah-sh/storyngine/compare/v1.0.1...v1.0.2) (2024-08-22)
 
 
