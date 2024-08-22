@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/ptah-sh/storyngine/compare/v1.0.5...v1.1.0) (2024-08-22)
+
+
+### Features
+
+* enable continuous deployment ([db6c8c4](https://github.com/ptah-sh/storyngine/commit/db6c8c48bcd25da15b6c3b1cb372a447a80e23dd))
+
+
+### Bug Fixes
+
+* trust proxies ([56665ff](https://github.com/ptah-sh/storyngine/commit/56665ff7c713b2e80392eb59315bd4e6c37c687a))
+
 ## [1.0.5](https://github.com/ptah-sh/storyngine/compare/v1.0.4...v1.0.5) (2024-08-22)
 
 
