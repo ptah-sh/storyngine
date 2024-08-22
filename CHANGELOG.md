@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/ptah-sh/storyngine/compare/v1.2.0...v1.3.0) (2024-08-22)
+
+
+### Features
+
+* use rich editor for summary ([9bc1f23](https://github.com/ptah-sh/storyngine/commit/9bc1f23adaf805605d18cba88eafa148159295d1))
+
 ## [1.2.0](https://github.com/ptah-sh/storyngine/compare/v1.1.2...v1.2.0) (2024-08-22)
 
 
