@@ -47,7 +47,6 @@ class StoryResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('headline'),
-                Tables\Columns\TextColumn::make('slug'),
                 Tables\Columns\TextColumn::make('published_at')->dateTime(),
             ])
             ->filters([
