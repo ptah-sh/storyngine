@@ -23,6 +23,7 @@ class StoryResource extends Resource
             ->schema([
                 Forms\Components\TextInput::make('headline')->required()->afterStateUpdated(fn ($state, $set) => $set('slug', Str::slug($state.'-'.now()->format('Y-m-d'))))->lazy(),
                 Forms\Components\TextInput::make('slug')->readOnly()->required(),
+                Forms\Components\Textarea::make('meta_description')->required(),
                 Forms\Components\RichEditor::make('summary')->required(),
                 Forms\Components\Group::make([
                     Forms\Components\Select::make('vendor_id')
@@ -34,8 +35,10 @@ class StoryResource extends Resource
                         ->options(['positive' => '😊 Positive', 'neutral' => '😐 Neutral', 'negative' => '😠 Negative'])
                         ->required(),
                 ])->columns(2),
-                Forms\Components\TextInput::make('source')->url()->required(),
-                Forms\Components\DatePicker::make('published_at')->time()->afterStateUpdated(fn ($state, $get, $set) => $set('slug', Str::slug($get('headline').'-'.\Carbon\Carbon::parse($state)->format('Y-m-d'))))->lazy(),
+                Forms\Components\Group::make([
+                    Forms\Components\TextInput::make('source')->url()->required(),
+                    Forms\Components\DatePicker::make('published_at')->time()->afterStateUpdated(fn ($state, $get, $set) => $set('slug', Str::slug($get('headline').'-'.\Carbon\Carbon::parse($state)->format('Y-m-d'))))->lazy(),
+                ])->columns(2),
             ]);
     }
 
