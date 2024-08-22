@@ -55,5 +55,5 @@ jobs:
             -H 'Content-Type: application/json' \
             -H 'Accept: application/json' \
             -H 'Authorization: Bearer ${{ secrets.PTAH_API_TOKEN }}' \
-            -d '{"processes":[{"name":"svc","dockerImage":"ghcr.io/ptah-sh/storyngine:${{ needs.release-please.outputs.tag_name }}"}]}' \
+            -d '{"processes":[{"name":"storyngine","dockerImage":"ghcr.io/ptah-sh/storyngine:${{ needs.release-please.outputs.tag_name }}"}]}' \
             https://ctl.ptah.sh/api/v0/services/62/deploy
