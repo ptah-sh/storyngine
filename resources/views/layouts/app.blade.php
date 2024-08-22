@@ -24,6 +24,13 @@
 </head>
 <body class="flex justify-center bg-gradient-to-r from-lightblue-200 to-lightgray-300">
     <div class="flex flex-col max-w-[800px] justify-center bg-gradient-to-r from-lightblue-200 to-lightgray-300">
+        <div class="text-center m-4">
+            <a href="{{ route('stories.index') }}" class="text-2xl font-bold text-gray-700 hover:text-gray-900">
+                Vendor Stories
+            </a>
+        </div>
+
+    
         <div class="min-w-[600px] p-4 md:p-4 lg:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg">
             <div>
                 <h1 class="text-3xl font-bold mb-4 text-gray-600">{{ Str::ucfirst($mood) }} {{ $vendor }} Stories</h1>
