@@ -32,7 +32,6 @@ COPY . .
 RUN php composer.phar install \
     && npm run build \
     && php artisan optimize \
-    && php artisan data:cache-structures \
     && apt-get -y remove npm unzip \
     && apt-get -y clean \
     && apt-get -y autoremove \
