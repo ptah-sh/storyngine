@@ -12,8 +12,8 @@ class StoryController extends Controller
     public function index()
     {
         seo()
-            ->title("All Stories")
-            ->description("Stay tuned for the latest updates and a mix of uplifting, heartwarming, and thought-provoking stories from the real people.");
+            ->title('All Stories')
+            ->description('Stay tuned for the latest updates and a mix of uplifting, heartwarming, and thought-provoking stories from the real people.');
 
         return view('stories.index', [
             'stories' => Story::published()->orderBy('published_at', 'desc')->get(),

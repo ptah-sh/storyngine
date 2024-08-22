@@ -15,7 +15,7 @@ class Story extends Model
         'headline',
         'slug',
         'summary',
-        'description',
+        'meta_description',
         'source',
         'vendor_id',
         'mood',
