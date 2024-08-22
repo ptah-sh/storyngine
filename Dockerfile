@@ -1,7 +1,7 @@
 FROM dunglas/frankenphp:latest
 
 RUN apt-get update \
-    && apt-get install -y nodejs npm unzip libpq-dev libicu-dev \
+    && apt-get install -y nodejs npm unzip libpq-dev libicu-dev libzip-dev \
     && apt-get clean && rm -rf /var/lib/apt/lists /var/cache/apt/archives \
     && curl https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb93902cd7576b67264ad91c8a2700e2/web/installer | php -- --quiet \
     && docker-php-ext-configure pgsql \
