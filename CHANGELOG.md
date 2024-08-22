@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/ptah-sh/storyngine/compare/v1.5.1...v1.6.0) (2024-08-22)
+
+
+### Features
+
+* add favicon ([00846b2](https://github.com/ptah-sh/storyngine/commit/00846b2db7f31133391d12818af1e12975789c86))
+
 ## [1.5.1](https://github.com/ptah-sh/storyngine/compare/v1.5.0...v1.5.1) (2024-08-22)
 
 
