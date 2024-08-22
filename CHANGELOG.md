@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/ptah-sh/storyngine/compare/v1.0.1...v1.0.2) (2024-08-22)
+
+
+### Bug Fixes
+
+* domain ([d06c948](https://github.com/ptah-sh/storyngine/commit/d06c948b60ed419504ef66b261542913dfae2bd3))
+* php exts ([5491650](https://github.com/ptah-sh/storyngine/commit/54916506906533f998177bdcec6bff8440f596e6))
+
 ## [1.0.1](https://github.com/ptah-sh/storyngine/compare/v1.0.0...v1.0.1) (2024-08-22)
 
 
