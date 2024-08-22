@@ -3,16 +3,12 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\StoryResource\Pages;
-use App\Filament\Resources\StoryResource\RelationManagers;
 use App\Models\Story;
-use App\Models\Vendor;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Str;
 
 class StoryResource extends Resource
@@ -25,7 +21,7 @@ class StoryResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('headline')->required()->afterStateUpdated(fn ($state, $set) => $set('slug', Str::slug($state . '-' . now()->format('Y-m-d'))))->lazy(),
+                Forms\Components\TextInput::make('headline')->required()->afterStateUpdated(fn ($state, $set) => $set('slug', Str::slug($state.'-'.now()->format('Y-m-d'))))->lazy(),
                 Forms\Components\TextInput::make('slug')->readOnly()->required(),
                 Forms\Components\Textarea::make('summary')->required(),
                 Forms\Components\Group::make([
@@ -39,7 +35,7 @@ class StoryResource extends Resource
                         ->required(),
                 ])->columns(2),
                 Forms\Components\TextInput::make('source')->url()->required(),
-                Forms\Components\DatePicker::make('published_at')->time()->afterStateUpdated(fn ($state, $get, $set) => $set('slug', Str::slug($get('headline') . '-' . \Carbon\Carbon::parse($state)->format('Y-m-d'))))->lazy(),
+                Forms\Components\DatePicker::make('published_at')->time()->afterStateUpdated(fn ($state, $get, $set) => $set('slug', Str::slug($get('headline').'-'.\Carbon\Carbon::parse($state)->format('Y-m-d'))))->lazy(),
             ]);
     }
 
