@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/ptah-sh/storyngine/compare/v1.0.0...v1.0.1) (2024-08-22)
+
+
+### Bug Fixes
+
+* ooops, dockerfile ([132226f](https://github.com/ptah-sh/storyngine/commit/132226f20c8403a2536fa5c510b84290336668ed))
+* ooops, spatie data ([2d51123](https://github.com/ptah-sh/storyngine/commit/2d511232bebbf020cfe80460f2edc90336f5a44f))
+
 ## 1.0.0 (2024-08-22)
 
 
