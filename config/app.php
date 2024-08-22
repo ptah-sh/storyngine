@@ -123,5 +123,5 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    'gtm' => env('APP_GTM', ''),
+    'gtmId' => env('APP_GTM_ID', ''),
 ];

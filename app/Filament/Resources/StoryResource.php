@@ -23,7 +23,7 @@ class StoryResource extends Resource
             ->schema([
                 Forms\Components\TextInput::make('headline')->required()->afterStateUpdated(fn ($state, $set) => $set('slug', Str::slug($state.'-'.now()->format('Y-m-d'))))->lazy(),
                 Forms\Components\TextInput::make('slug')->readOnly()->required(),
-                Forms\Components\Textarea::make('summary')->required(),
+                Forms\Components\RichEditor::make('summary')->required(),
                 Forms\Components\Group::make([
                     Forms\Components\Select::make('vendor_id')
                         ->preload()

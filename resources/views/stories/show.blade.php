@@ -10,7 +10,7 @@
             <span class="inline-block {{ $story->mood == 'positive' ? 'bg-green-700 text-white' : ($story->mood == 'negative' ? 'bg-red-500 text-white' : 'bg-gray-300 text-gray-700') }} rounded-full px-3 py-1 text-sm font-semibold mr-2">{{ $story->vendor->name }} {{ $story->mood == 'positive' ? '😊' : ($story->mood == 'negative' ? '😠' : '😐') }}</span>
             <p class="text-sm text-gray-500 ml-2">{{ $story->published_at->shortRelativeToNowDiffForHumans() }}</p>
         </div>
-        <p class="text-lg text-gray-700 mt-2">{{ nl2br($story->summary) }}</p>
+        <p class="text-lg text-gray-700 mt-2">{!! $story->summary !!}</p>
         <a href="{{ $story->source }}" class="text-blue-500 hover:text-blue-700 mt-4 flex items-center" rel="norel nofollow noopener">
             @if(Str::startsWith($story->source, 'https://x.com'))
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 pr-1" viewBox="0 0 48 48">

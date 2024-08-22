@@ -4,15 +4,15 @@
 <html>
 <head>
 
-    @if(config('app.gtm'))
+    @if(config('app.gtmId'))
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('app.gtm') }}"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('app.gtmId') }}"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', '{{ config('app.gtm') }}');
+            gtag('config', '{{ config('app.gtmId') }}');
         </script>
     @endif
 
