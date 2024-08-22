@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ptah-sh/storyngine/compare/v1.1.2...v1.2.0) (2024-08-22)
+
+
+### Features
+
+* convert newlines into br tag ([e67c4b6](https://github.com/ptah-sh/storyngine/commit/e67c4b69d17bd53d8a58cea847e18bc846fe2dd9))
+
 ## [1.1.2](https://github.com/ptah-sh/storyngine/compare/v1.1.1...v1.1.2) (2024-08-22)
 
 
