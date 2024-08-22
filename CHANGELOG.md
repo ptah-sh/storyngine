@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/ptah-sh/storyngine/compare/v1.4.0...v1.4.1) (2024-08-22)
+
+
+### Bug Fixes
+
+* robots ([afb5011](https://github.com/ptah-sh/storyngine/commit/afb50118f8897cd22bd3282e16ecab992a916739))
+
 ## [1.4.0](https://github.com/ptah-sh/storyngine/compare/v1.3.0...v1.4.0) (2024-08-22)
 
 
