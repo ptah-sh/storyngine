@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/ptah-sh/storyngine/compare/v1.4.1...v1.5.0) (2024-08-22)
+
+
+### Features
+
+* microdata ([f856115](https://github.com/ptah-sh/storyngine/commit/f856115aab210bace2ca05e06ca2ac3bc0b4e2af))
+
 ## [1.4.1](https://github.com/ptah-sh/storyngine/compare/v1.4.0...v1.4.1) (2024-08-22)
 
 
