@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/ptah-sh/storyngine/compare/v1.0.3...v1.0.4) (2024-08-22)
+
+
+### Bug Fixes
+
+* libzip-dev ([b3722d4](https://github.com/ptah-sh/storyngine/commit/b3722d4374297a789c5ec57d9b3c8ceb9239e952))
+
 ## [1.0.3](https://github.com/ptah-sh/storyngine/compare/v1.0.2...v1.0.3) (2024-08-22)
 
 
