@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/ptah-sh/storyngine/compare/v1.5.0...v1.5.1) (2024-08-22)
+
+
+### Bug Fixes
+
+* typo ([23b0842](https://github.com/ptah-sh/storyngine/commit/23b0842d3f8853ed36244b811184e2e16693c9cc))
+
 ## [1.5.0](https://github.com/ptah-sh/storyngine/compare/v1.4.1...v1.5.0) (2024-08-22)
 
 
