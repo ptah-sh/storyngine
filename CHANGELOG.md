@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/ptah-sh/storyngine/compare/v1.1.0...v1.1.1) (2024-08-22)
+
+
+### Bug Fixes
+
+* correct process name for deployment ([e2d217a](https://github.com/ptah-sh/storyngine/commit/e2d217a60477c11d5a989744144e29fb0ebf8a83))
+
 ## [1.1.0](https://github.com/ptah-sh/storyngine/compare/v1.0.5...v1.1.0) (2024-08-22)
 
 
