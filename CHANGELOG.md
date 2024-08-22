@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/ptah-sh/storyngine/compare/v1.3.0...v1.4.0) (2024-08-22)
+
+
+### Features
+
+* add link to the index page ([c20e1fa](https://github.com/ptah-sh/storyngine/commit/c20e1fa3384ea7d3ec2e663cf248ae1b5fc7106e))
+
 ## [1.3.0](https://github.com/ptah-sh/storyngine/compare/v1.2.0...v1.3.0) (2024-08-22)
 
 
