@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/ptah-sh/storyngine/compare/v1.1.1...v1.1.2) (2024-08-22)
+
+
+### Bug Fixes
+
+* allow login admins ([880fdb6](https://github.com/ptah-sh/storyngine/commit/880fdb6e24dd3efe247b74df6ec5e013b8c151e0))
+
 ## [1.1.1](https://github.com/ptah-sh/storyngine/compare/v1.1.0...v1.1.1) (2024-08-22)
 
 
