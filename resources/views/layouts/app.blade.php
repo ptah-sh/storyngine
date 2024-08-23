@@ -46,6 +46,7 @@
 
         <div class="footer p-4 md:p-6 lg:p-8 text-center text-gray-400">
             <p>Hosted with ❤️ on <a href="https://ptah.sh" class="text-blue-500 hover:text-blue-700">ptah.sh</a></p>
+            <p class="mt-2">View on <a href="https://github.com/ptah-sh/storyngine" class="text-blue-500 hover:text-blue-700">GitHub</a></p>
         </div>
     </div>
 </body>
