@@ -34,7 +34,7 @@
         </div>
 
     
-        <div class="min-w-[600px] p-4 md:p-4 lg:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg">
+        <div class="md:min-w-[600px] p-4 md:p-4 lg:p-4 bg-white bg-opacity-50 rounded-lg shadow-lg">
             <div>
                 <h1 class="text-3xl font-bold mb-4 text-gray-600">{{ Str::ucfirst($mood) }} {{ $vendor }} Stories</h1>
                 <p class="text-lg text-gray-700 text-balance">Follow us for the latest updates and sometimes happy, sometimes sad, sometimes neutral stories from the real people interating with big corporations.</p>
