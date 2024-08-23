@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/ptah-sh/storyngine/compare/v1.6.0...v1.6.1) (2024-08-23)
+
+
+### Bug Fixes
+
+* mobile layout ([dfa3a30](https://github.com/ptah-sh/storyngine/commit/dfa3a305c060cec3aac5008a98db5b124f981392))
+
 ## [1.6.0](https://github.com/ptah-sh/storyngine/compare/v1.5.1...v1.6.0) (2024-08-22)
 
 
