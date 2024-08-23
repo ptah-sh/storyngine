@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/ptah-sh/storyngine/compare/v1.6.1...v1.7.0) (2024-08-23)
+
+
+### Features
+
+* add github link ([f88657e](https://github.com/ptah-sh/storyngine/commit/f88657eb5d27b9f67c6efffc8f9882d4d72449ae))
+
 ## [1.6.1](https://github.com/ptah-sh/storyngine/compare/v1.6.0...v1.6.1) (2024-08-23)
 
 
